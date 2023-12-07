@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "6acvDZuAJ5Jk53GLCnNKcSR/lF/llpYSb/Zrfio14WdGQoAGYGBWQF7/4lVg7TnYRSw2EapXAYqlEj7RovDFYQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\200037\\source\\repos\\V640_RFID_Reader\\Omron_V640_RFID_Reader.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\200037\\.nuget\\packages\\runtime.linux-arm.runtime.native.system.io.ports\\8.0.0\\runtime.linux-arm.runtime.native.system.io.ports.8.0.0.nupkg.sha512",
+    "C:\\Users\\200037\\.nuget\\packages\\runtime.linux-arm64.runtime.native.system.io.ports\\8.0.0\\runtime.linux-arm64.runtime.native.system.io.ports.8.0.0.nupkg.sha512",
+    "C:\\Users\\200037\\.nuget\\packages\\runtime.linux-x64.runtime.native.system.io.ports\\8.0.0\\runtime.linux-x64.runtime.native.system.io.ports.8.0.0.nupkg.sha512",
+    "C:\\Users\\200037\\.nuget\\packages\\runtime.native.system.io.ports\\8.0.0\\runtime.native.system.io.ports.8.0.0.nupkg.sha512",
+    "C:\\Users\\200037\\.nuget\\packages\\runtime.osx-arm64.runtime.native.system.io.ports\\8.0.0\\runtime.osx-arm64.runtime.native.system.io.ports.8.0.0.nupkg.sha512",
+    "C:\\Users\\200037\\.nuget\\packages\\runtime.osx-x64.runtime.native.system.io.ports\\8.0.0\\runtime.osx-x64.runtime.native.system.io.ports.8.0.0.nupkg.sha512",
+    "C:\\Users\\200037\\.nuget\\packages\\system.io.ports\\8.0.0\\system.io.ports.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
