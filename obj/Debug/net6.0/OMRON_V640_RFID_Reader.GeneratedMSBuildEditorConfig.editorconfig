@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Omron_V640_RFID_Reader
-build_property.ProjectDir = C:\Users\200037\source\repos\V640_RFID_Reader\
+build_property.ProjectDir = C:\Users\200037\source\repos\omron-v640-rfid-driver\

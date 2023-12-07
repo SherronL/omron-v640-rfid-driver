@@ -1,5 +1,4 @@
 ﻿using System.Text;
-using System;
 using System.IO.Ports;
 
 class RFIDReader
@@ -105,19 +104,42 @@ class RFIDReader
     }
     static void Main(string[] args)
     {
-        Console.WriteLine("Omron V640 RFID reader driver\nUsage: enter 1 to get device verison; enter 2 to read RFID");
+        short portNumber = 0;
+        Console.WriteLine("Enter the COM port number where device is connected to:");
+        string userInput = Console.ReadLine();
+        if (userInput != null)
+            portNumber = Int16.Parse(userInput);
 
-        // port settings
-        SerialPort serialPort = new SerialPort("COM3");
-        serialPort.BaudRate = 19200;   //BaudRate
-        serialPort.DataBits = 8;   //DataBits
-        serialPort.StopBits = StopBits.One;  //StopBits
-        serialPort.Parity = Parity.Even; //Parity
-        //serialPort.Open();
+        while (portNumber <= 0 || portNumber > 255) 
+        {
+            Console.WriteLine("Enter the COM port number between 1 - 255 where device is connected to:");
+            userInput = Console.ReadLine();
+            if (userInput != null)
+                portNumber = Int16.Parse(userInput);
+        }
+
+        string COMPort = $"COM{portNumber}";
+        SerialPort serialPort = new SerialPort(COMPort);
+        try
+        {
+            // port settings
+            serialPort.BaudRate = 19200;   //BaudRate
+            serialPort.DataBits = 8;   //DataBits
+            serialPort.StopBits = StopBits.One;  //StopBits
+            serialPort.Parity = Parity.Even; //Parity
+            serialPort.Open();
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine($"Error: could not find port {COMPort}, terminating...");
+            Environment.Exit(0);
+        }
+
+        Console.WriteLine("Omron V640 RFID reader driver\nUsage: enter 1 to get device verison; enter 2 to read RFID");
 
         while (true)
         {
-            string userInput = Console.ReadLine();
+            userInput = Console.ReadLine();
 
             string currCmd = "";
 
@@ -133,7 +155,7 @@ class RFIDReader
                     break;
                 case "exit":
                     serialPort.Close();
-                    System.Environment.Exit(0);
+                    Environment.Exit(0);
                     break;
                 default:
                     Console.WriteLine("unrecognized command\n");

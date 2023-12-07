@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6acvDZuAJ5Jk53GLCnNKcSR/lF/llpYSb/Zrfio14WdGQoAGYGBWQF7/4lVg7TnYRSw2EapXAYqlEj7RovDFYQ==",
+  "dgSpecHash": "ZGmNdgOfQzSQSaIq+Lf0aMKPYZvNvDJkoiyO1q/VLaPwAUiuYAj9kGEGN2B2UCTeC4GHwLvhljJN+ACJUt4u3g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\200037\\source\\repos\\V640_RFID_Reader\\Omron_V640_RFID_Reader.csproj",
+  "projectFilePath": "C:\\Users\\200037\\source\\repos\\omron-v640-rfid-driver\\Omron_V640_RFID_Reader.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\200037\\.nuget\\packages\\runtime.linux-arm.runtime.native.system.io.ports\\8.0.0\\runtime.linux-arm.runtime.native.system.io.ports.8.0.0.nupkg.sha512",
     "C:\\Users\\200037\\.nuget\\packages\\runtime.linux-arm64.runtime.native.system.io.ports\\8.0.0\\runtime.linux-arm64.runtime.native.system.io.ports.8.0.0.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\200037\\source\\repos\\V640_RFID_Reader\\Omron_V640_RFID_Reader.csproj": {}
+    "C:\\Users\\200037\\source\\repos\\omron-v640-rfid-driver\\Omron_V640_RFID_Reader.csproj": {}
   },
   "projects": {
-    "C:\\Users\\200037\\source\\repos\\V640_RFID_Reader\\Omron_V640_RFID_Reader.csproj": {
+    "C:\\Users\\200037\\source\\repos\\omron-v640-rfid-driver\\Omron_V640_RFID_Reader.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\200037\\source\\repos\\V640_RFID_Reader\\Omron_V640_RFID_Reader.csproj",
+        "projectUniqueName": "C:\\Users\\200037\\source\\repos\\omron-v640-rfid-driver\\Omron_V640_RFID_Reader.csproj",
         "projectName": "Omron_V640_RFID_Reader",
-        "projectPath": "C:\\Users\\200037\\source\\repos\\V640_RFID_Reader\\Omron_V640_RFID_Reader.csproj",
+        "projectPath": "C:\\Users\\200037\\source\\repos\\omron-v640-rfid-driver\\Omron_V640_RFID_Reader.csproj",
         "packagesPath": "C:\\Users\\200037\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\200037\\source\\repos\\V640_RFID_Reader\\obj\\",
+        "outputPath": "C:\\Users\\200037\\source\\repos\\omron-v640-rfid-driver\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
